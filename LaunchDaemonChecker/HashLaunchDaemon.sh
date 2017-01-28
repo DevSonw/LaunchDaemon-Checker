@@ -1,5 +1,7 @@
 #! /bin/bash
 
+uname=$(whoami)
+
 read -p "Are you creating a reference file? (y/n) " option
 echo ""
 if [[ $option == "n"  ]]
