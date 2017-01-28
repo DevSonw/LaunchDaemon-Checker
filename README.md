@@ -1,2 +1,2 @@
 # LaunchDaemon-Checker
-Hash verifies LaunchDaemons.
+The two scripts verify system LaunchAgents and LaunchDaemons. Catches corruption.
