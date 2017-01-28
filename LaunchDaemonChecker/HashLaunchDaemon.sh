@@ -10,7 +10,7 @@ then
   echo ""
   read -p "What version of OS X? (Example: 10.11.6) " version
 
-  shasum /System/Library/LaunchDaemons/* -c ./Reference/$version.txt >> /Users/$uname/Desktop/Results.txt
+  shasum -c ./Reference/$version.txt >> /Users/$uname/Desktop/Results.txt
   echo ""
   echo "Process Complete"
   
