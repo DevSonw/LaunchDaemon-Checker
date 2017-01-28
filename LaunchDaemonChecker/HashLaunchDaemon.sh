@@ -19,7 +19,7 @@ else
   echo ""
   read -p "Which version of OS X are you checking? (Example: 10.11.6) " newversion
 
-  shasum /System/Library/LibraryDaemons/* >> ./Reference/$newversion
+  shasum /System/Library/LaunchDaemons/* >> ./Reference/$newversion
   echo ""
   echo "Process Complete"
 fi
